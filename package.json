@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-stripe-api",
+  "version": "1.0.0",
+  "description": "Application to sell books",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaustubh87/Nodejs-and-Stripe-API.git"
+  },
+  "author": "Kaustubh Vinzanekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaustubh87/Nodejs-and-Stripe-API/issues"
+  },
+  "homepage": "https://github.com/kaustubh87/Nodejs-and-Stripe-API#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "stripe": "^5.1.1"
+  }
+}
