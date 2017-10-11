@@ -1,0 +1,27 @@
+<section class="py-2">
+    <div class="row">
+        <div class="col md-6 text-center">
+           <h1 class="display-3 mt-3 pt-5">
+               Ecommerce Ebook
+           </h1>
+           <p class="lead">Learn Ecommerce</p>
+           <form action="/charge" method="POST">
+  <script
+    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+    data-key="pk_test_WYRDyPpUA4I1415FrcxyJwGL"
+    data-amount="2500"
+    data-name="Ecommerce Web book"
+    data-description="Widget"
+    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+    data-locale="auto">
+  </script>
+  <script>
+      // Hide default Stripe Button
+      document.getElementsByClassName('stripe-button-el')[0].style.display="none";
+  </script>
+  <button type="submit" class="btn btn-outline-dark text-white btn-lg">Buy for $25</button>
+
+</form>
+        </div>
+    </div>
+</section>
